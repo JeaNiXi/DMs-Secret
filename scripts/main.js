@@ -24,6 +24,11 @@ else {
     myHeading.textContent = "mozilla is cool (stored) " + storedName;
 };
 
-myButton.onclick = function(){
+myButton.onclick = function () {
     setUserName();
 };
+
+var myScam = document.getElementById("scam");
+myScam.onclick = function () {
+    alert("пидманула пидвела, донатиков не буде");
+}
